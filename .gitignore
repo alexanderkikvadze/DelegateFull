@@ -1,0 +1,8 @@
+# Visual Studio local state
+.vs/
+*.user
+*.suo
+
+# .NET build output
+[Bb]in/
+[Oo]bj/
