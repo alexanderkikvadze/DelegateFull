@@ -68,7 +68,7 @@ internal class Program
         };
         Console.WriteLine("\n--- ***** event ***** ----");
 
-        var transferServiceEvent = new TransferServiceEvent();
+        var transferServiceEvent = new TransferServiceEvent("Transfer completed successfully.");
         var emailTransferNotificationServiceEvent = new EmailTransferNotificationServiceEvent();
         var smsTransferNotificationServiceEvent = new SmsTransferNotificationServiceEvent();
 
